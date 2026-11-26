@@ -1,0 +1,20 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (credenciales): solo se sube .env.example
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editores y sistema operativo
+.vscode/
+Thumbs.db
+
+# Archivos temporales
+tmp/
+*.tmp
